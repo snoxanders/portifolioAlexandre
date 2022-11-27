@@ -1,0 +1,500 @@
+*{
+    background-color: #2f4d80;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    
+}
+
+
+
+.navbar{
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content:space-around;
+    height: 100px;
+    display: flex;
+    background-color: #2f4d80;
+    align-items: center;
+    
+
+}
+
+.logo-container{
+    width: 200px;
+    height:90px;
+    
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: #c7daef;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c7daef;
+}
+
+.nav-lista {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    
+    
+    
+}
+
+
+
+.nav-lista li {
+    
+    margin-left: 100px;
+    margin-right: 30px;
+    color: #c7daef;
+    list-style-type: none;
+    text-decoration: none;
+
+    
+}
+
+.container-body {
+    
+    margin-top: 150px;
+    
+    display: flex;
+    
+}
+
+.container-body img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.left-square {
+    
+    margin-left: 400px;
+    margin-right: 0;
+    border-radius: 50%;
+    
+    width: 300px;
+    height: 300px;
+}
+
+
+.right-square {
+    margin-left: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #c7daef;;
+    border-radius: 5px;
+    border: 1px solid #c7daef;
+    
+    width: 300px;
+    height: 300px;
+}
+
+.right-square .botao-talk {
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #2f4d80;
+color: #c7daef
+}
+
+.right-square .botao-talk:hover {
+    background-color: #c7daef;
+    color: #2f4d80;
+}
+
+
+
+.botao-talk {
+    padding: 10px;
+    border-radius: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+    color: #dcdcdc;
+    background-color: #dcdcdc
+}
+
+
+.second-body {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-about {
+    border-radius: 5px;
+    font-size: 45px;
+    color: #c7daef;
+    padding: 50px;
+    border: 1px solid #c7daef ;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-skills {
+    border-radius: 5px;
+    font-size: 40px;
+    color: #c7daef;
+    padding: 50px;
+    border: 1px solid #c7daef ;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.third-body {
+    
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.portifolio-div {
+    color: #c7daef;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    
+
+}
+
+.container-projetos{
+    padding-top: 30px;
+    border-radius: 20px ;
+    border: 1px solid #c7daef;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 1500px;
+    height: 400px;
+}
+
+
+
+.container-primeflix{
+    
+    width: 400px;
+    height: 300px;
+    
+}
+
+.container-todo {
+    
+    width: 400px;
+    height: 300px;
+    
+}
+
+.container-todo h2 {
+    
+}
+
+.container-todo img {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.container-primeflix img {
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.container-contact {
+    
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+
+.ancora-contact {
+    margin-top: 200px;
+    
+    width: 100%;
+    height: 40px;
+    
+}
+
+.container-contact h2 {
+    display: flex;
+    flex-direction: column;
+    color:#c7daef;
+    
+}
+
+.text-contact {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    
+    align-items: center;
+    color:#c7daef 
+}
+
+.icons-contact {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c7daef ;
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+}
+
+
+
+.icons-contact img {
+    border-radius: 50%;
+}
+
+.ancora-about {
+    margin-top: 500px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 40px;
+    
+}
+
+.footer-div {
+    color: #c7daef;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.ancora-portifolio {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 40px;
+}
+
+.ancora-home {
+    width: 100%;
+    height: 1px;
+}
+
+
+
+
+@media (max-width: 1400px) {
+    
+    .container-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-square {
+        margin-left: 30px;
+    }
+
+    .right-square {
+        margin-left: 30px;
+        margin-top: 10px;
+        
+    }
+
+    .second-body {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .third-body {
+        height: 1000px;
+        padding: 0;
+    }
+
+    .portifolio-div {
+        height: 50px;
+    }
+
+    .container-projetos {
+        padding-top: 0;
+        margin-top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        
+        
+        align-items: center;
+    }
+    
+    
+
+
+}
+
+
+@media (max-width: 950px) {
+    
+   
+
+    .navbar {
+        justify-content: flex-start;
+    }
+
+    .logo-container {
+        width: 0px;
+        height: 0px;
+    }
+    
+    
+
+
+}  
+
+
+@media (max-width: 940px) {
+    
+    
+
+    .navbar {
+        justify-content:left;
+    }
+
+   
+
+    .nav-lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+    .nav-lista li {
+        margin-bottom: 2px;
+    }
+
+    .second-body {
+        width: 400px;
+    }
+
+    .container-about {
+
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .container-skills {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .skills-icons img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .ancora-about {
+        margin-top: 50px;
+    }
+
+
+    .container-todo {
+        
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    .container-primeflix {
+        
+        width: 300px;
+        height: 300px;
+        
+    }
+
+    
+
+    .container-todo h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-primeflix h2{
+    
+        display: flex;
+        justify-content: center
+        
+    }
+
+    .container-projetos {
+        width: 360px;
+    }
+
+
+    .icons-contact {
+        width: 360px;
+    }
+    
+
+   
+
+    
+
+    
+    
+
+
+} 
