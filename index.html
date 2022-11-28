@@ -1,100 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Projeto</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+
+    <title>Document</title>
 </head>
+
 <body>
-    <div class="main-container">
-        <div id="elementoHome" class="ancora-home"></div>
-        <nav class="navbar">
-                <div class="logo-container">
-                   <a href="#elementoHome"> <img src="./imagens/logoale.PNG" alt=""></a>
-                </div>
-            <div class="div-lista">      
-                <ul class="nav-lista">
-                    <li><a href="#elementoAbout">ABOUT</a></li>
-                    <li><a href="#elementoPortifolio">PORTFOLIO</a></li>
-                    <li><a href="#elementoContact">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container-body">
-            <div class="left-square">
-                <img src="./imagens/fotoAle.jpg" alt="">
-            </div>
-            <div class="right-square">
-                <p>Hi, i am Alexandre gomes and i am a Full-Stack Web Developer. </p>
-                                
-                <a href="https://api.whatsapp.com/send?phone=351965793566&text=Hello,%20My%20name%20is%20Alexandre%20Gomes%20and%20you%20probably%20came%20through%20my%20portfolio%20right?%20Here%20we%20can%20start%20talking%20in%20English%20or%20Portuguese!%20How%20can%20I%20help%20you%20?" target="_blank"><button class="botao-talk">Let's talk</button></a>
-            </div>
+<div class="tudo-mesmo">
+    <div class="all-container">
+        <section class="nav-all-content">
+            <nav class="navbar">
+                <h4 class="page-title">Survival list 2.0</h4>
 
-        </div>
-        <div  id="elementoAbout" class="ancora-about">
+            </nav>
 
-        </div>
-        <div class="second-body">
-            <div class="container-about">
-                <h2>ABOUT</h2>
-                <p>Summarizing a little about myself, I can say that I am a very hardworking and positive person, I like new challenges and also working hard. Always looking for learning and challenges. If we can dream, we can also make our dreams come true.</p>
+        </section>
+
+        <section class="main-content">
+            <div class="inputs-box">
+                <input class="main-input" onfocus="this.value='';" type="text" value="" placeholder="Adicionar Item"> 
+                <button class="add-btn" type="submit">ADD</button>
+
+            </div>
+            <div class="novo-item">
+           
             </div>    
-                <div class="container-skills">
-                    <h2>Skills</h2>
-                    <div class="skills-icons">
-                        <img src="./imagens/skills.png" alt="">
-                    </div>
-                </div>
             </div>
-        </div>
+        </section>
 
-        <div  id="elementoPortifolio" class="ancora-portifolio">
 
-        </div>
-        <div class="third-body">
-            <div class="portifolio-div">
-             <h2>PORTIFOLIO</h2>
-            </div>
-            <div class="container-projetos">
-            <div class="container-todo">
-                <a href="https://to-do2-0.vercel.app/"><h2>Todo List</h2></a>
-                <img src="./imagens/todo.png" alt="">
-            </div>    
-                <div class="container-primeflix">
-                    <a href="https://prime-flix-six.vercel.app/"><h2>Prime Flix</h2></a>
-                    
-                    <img src="./imagens/primeFlix.png" alt="">
-                </div>        
-                
-            </div>
-        </div>
-
-        <div  id="elementoContact" class="ancora-contact">
-
-        </div>
-        <div class="fourth-body">
-            <div class="container-contact">
-                <div class="text-contact">
-                    <h2>CONTACT</h2>
-                </div>
-                <div class="icons-contact">
-                    <a href="https://www.linkedin.com/in/alexandre-gomes-406b5b178/" target="_blank"><img src="./imagens/834713_linkedin_icon.png" alt=""></a>
-                    <a href="https://github.com/snoxanders" target="_blank"><img src="./imagens/211904_social_github_icon.png" alt=""></a>
-                    <a href="https://api.whatsapp.com/send?phone=351965793566&text=Hello,%20My%20name%20is%20Alexandre%20Gomes%20and%20you%20probably%20came%20through%20my%20portfolio%20right?%20Here%20we%20can%20start%20talking%20in%20English%20or%20Portuguese!%20How%20can%20I%20help%20you%20?" target="_blank"><img src="./imagens/3225179_app_logo_media_popular_social_icon.png" alt=""></a>
-                </div>
-                
-            </div>
-        </div>
-    
-        <footer class="footer-container">
-        <div class="footer-div">
-            <p>Made by Alexandre Carneiro</p>
-        </div>
-        </footer>
     </div>
-    
-</body>
-</html>
 
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
