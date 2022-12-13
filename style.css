@@ -278,11 +278,9 @@ a:hover {
         align-items: center;
     }
     .left-square {
-        border: 1px solid red;
         margin-left: 30px;
     }
     .right-square {
-        border: 1px solid red;
         margin-left: 30px;
         margin-top: 10px;
     }
